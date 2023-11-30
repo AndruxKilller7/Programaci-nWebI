@@ -1,0 +1,31 @@
+
+.slider{
+   display: flex;
+   justify-content: flex-start;
+   background-color: burlywood;
+   overflow: hidden;
+
+}
+
+
+.slider h1{
+
+    
+    white-space: nowrap;
+    letter-spacing: 1px;
+    padding: 0 6rem;
+    animation: move-rtl 6000ms linear infinite;
+
+
+    
+}
+
+@keyframes move-rtl{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+
+}

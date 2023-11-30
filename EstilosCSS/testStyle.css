@@ -1,0 +1,24 @@
+.cabezera{
+    width: 100%;
+    padding: 1em 0;
+    background-color: darkslategrey;
+}
+
+.cabezera h1{
+    text-align: center;
+}
+
+
+.menuNav .buttonNav{
+
+    display: block;
+    
+}
+
+.pie_pagina{
+   
+    width: 100%;
+    padding: 1em 0;
+    background-color: darkslategrey;
+   
+}
