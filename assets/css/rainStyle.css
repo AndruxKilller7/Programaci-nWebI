@@ -1,0 +1,26 @@
+.contRain{
+    position: relative;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contRain i{
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: -10px;
+    background: purple;
+    animation: rain linear infinite;
+}
+
+@keyframes rain{
+    0%{
+        top: -10px;
+    }
+    100%{
+        top: 100vh;
+    }
+}

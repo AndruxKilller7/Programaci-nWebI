@@ -1,0 +1,208 @@
+.mainCards{
+
+    display: flex;
+    background: #191c24;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor{
+   
+       height: 310px;
+       width: 20%;
+       box-shadow: 0 0 7px rgb(79, 5, 30);
+       margin: 30px 30px;
+       background-color: wheat;
+       overflow: hidden;
+       transition: .5s;
+       border-radius: 20px;
+   
+}
+
+.contenedor:hover{
+
+    width: 23%;
+}
+
+
+
+
+
+/* .contenedor ::before{
+    content: '';
+    position: absolute;
+    width: 215px;
+    height: 38%;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+    animation: animate 4s linear infinite;
+
+ }
+
+ .contenedor ::after{
+
+    content: '';
+    position: absolute;
+    
+    height: 315px;
+    width: 15%;
+    background-color: aqua;
+    border-radius: 16px;
+
+
+   }
+
+   @keyframes animate{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+   }
+    */
+   /* .contenedor:hover{
+       width: 50%;
+   }
+   
+   .contenedor::before{
+   
+       content: "";
+       position: absolute;
+       left: 0;
+       width: 0;
+       height: 0;
+       border-bottom: 10px solid transparent;
+       border-top: 10px solid transparent;
+       border-left: 10px solid transparent;
+   } */
+   
+   .listaCartas{
+       display: flex;
+       flex-direction: column;
+   }
+   
+   
+   
+   .contenedor .carta{
+   
+       height: 200px;
+       width: 100%;
+       margin-bottom: 170px;
+       
+       /* background-color: #aaa;
+       box-shadow: 0 0 7px #111;
+       width: 20%;
+       height: 450px;
+       line-height: 100px;
+       text-align: center;
+       margin: 30px; */
+   
+   }
+   
+   .carta img{
+       margin: auto;
+       display: block;
+       /* padding-right: 250px; */
+   }
+   
+   
+   
+   /* .contenedor .IMGS{
+       background-color: rgb(211, 94, 26);
+   } */
+   .contenedor .IMGS img{
+   
+    /* background-color: #aaa;
+    color: black;
+    box-shadow: 0 0 7px #111;
+    width: 20%;
+    height: 450px;
+    line-height: 100px;
+    text-align: center;
+    margin: 30px; */
+    width: 100%;
+    
+
+}
+   .contenedor .imgConte img{
+   
+     width: 100%;
+     margin-top: -208%;
+     
+   }
+
+   
+
+
+   
+   .informacion{
+   
+       height: 80px;
+       width: 100%;
+   }
+   
+   .informacion h3{
+   
+       font-family: sans-serif;
+       font-size: 1.2em;
+       text-align: center;
+       color:  #333;
+       margin-bottom: -10px;
+   }
+   
+   .precioCarta{
+   
+       height: 50px;
+       width: 85%;
+       margin: auto;
+       font-family: sans-serif;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+   }
+   
+   .precioCaja{
+       width: 80px;
+   }
+   
+   .pr1{
+       color: red;
+       font-size: .8em;
+   }
+   
+   .pr2{
+   
+       font-size: 1.5em;
+   }
+   
+
+   .ordenBt {
+    
+    margin: 10px;
+    
+    
+   }
+
+   .ordenBt a{
+    position: fixed;
+    padding: 15px;
+    font-size: 15.5px;
+    
+   
+   }
+
+   .ordenBt img{
+    
+    width: 220px;
+    height: 70px;
+    transition: 0.5s;
+    overflow: hidden;
+   }
+
+   /* .ordenBt :hover{
+    
+   } */
