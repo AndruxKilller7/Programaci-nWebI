@@ -11178,7 +11178,7 @@ input[type="button"].btn-block {
   align-items: center; }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  /* padding: 0.25rem 0.75rem; */
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -20379,7 +20379,7 @@ div.tagsinput {
     .navbar .navbar-menu-wrapper .navbar-toggler {
       border: 0;
       color: #6c7293;
-      height: 70px;
+      /* height: 70px; */
       border-radius: 0px; }
       .navbar .navbar-menu-wrapper .navbar-toggler:not(.navbar-toggler-right) {
         font-size: 0.875rem; }
