@@ -21,16 +21,7 @@
     height: 110px; */
 }
 
-@media (max-width: 600px) {
 
-    .webDesign #carpa{
-        margin-right: 350px;
-        width: 200PX;
-        height: 30px;
-        margin-top: 5px;
-    }
-    
-}
 
 .webDesign #soporte1{
    position:absolute;
@@ -414,4 +405,28 @@
 .mainInfo .parrafo ul li{
     font-family: 'Gill Sans';
     font-size: 15px;
+}
+
+@media (max-width: 600px) {
+
+    .webDesign #carpa{
+        margin-right: 0px;
+        width: 190PX;
+        height: 21px;
+        margin-top: 0px;
+    }
+    .imgLogo img{
+
+        width: 10px;
+        height: 15px;
+        
+    }
+
+    .footerImg img {
+        margin-right: 100px;
+        width: 10px;
+        height: 10px;
+        
+    }
+    
 }
