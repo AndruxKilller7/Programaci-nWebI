@@ -21,6 +21,17 @@
     height: 110px; */
 }
 
+@media (max-width: 600px) {
+
+    .webDesign #carpa{
+        margin-right: 3500px;
+        width: 600PX;
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+}
+
 .webDesign #soporte1{
    position:absolute;
     width: 10px;
