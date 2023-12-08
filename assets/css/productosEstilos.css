@@ -206,3 +206,35 @@
    /* .ordenBt :hover{
     
    } */
+
+   @media (max-width: 600px) {
+
+    .contenedor{
+   
+        height: 90px;
+        width: 22%;
+        
+        margin: 30px 30px;
+        background-color: wheat;
+        overflow: hidden;
+        transition: .5s;
+        border-radius: 10px;
+    
+    }
+
+    .contenedor:hover{
+
+        width: 27.8%;
+    }
+
+    
+    .contenedor .imgConte img{
+   
+        width:100%;
+        margin-top: -1100%;
+        
+      }
+
+
+    
+}
