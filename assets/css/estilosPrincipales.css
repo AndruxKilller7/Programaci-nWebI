@@ -406,18 +406,17 @@
     font-family: 'Gill Sans';
     font-size: 15px;
 }
-
 @media (max-width: 600px) {
 
     .webDesign #carpa{
-        margin-right: 0px;
-        width: 190PX;
-        height: 21px;
+        margin-right: 0;
+        width: 210PX;
+        height: 35px;
         margin-top: 0px;
     }
     .imgLogo img{
 
-        width: 10px;
+        width: 50px;
         height: 15px;
         
     }
