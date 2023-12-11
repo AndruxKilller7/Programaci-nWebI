@@ -452,8 +452,7 @@
     }
     .imgLogo img{
 
-        width: 0px;
-        height: 0px;
+       
         
     }
 
@@ -612,6 +611,22 @@
         font-size: 18px;
         margin-top: 16px;
         margin-left: 10px;
+    }
+
+    .footerCopy{
+        margin-top: 2px;
+        
+        
+        
+    }
+    .footerCopy span{
+       color: #0d2033;
+       position:absolute;
+       margin-top: 20px;
+       margin-left: 110px;
+       
+      
+    
     }
     
     
